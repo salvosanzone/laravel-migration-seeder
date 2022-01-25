@@ -15,8 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@index')->name('home');
 
-Route::get('/', 'PageController@offerte')->name('offerte');
+Route::get('/destinazioni', 'PageController@destinazioni')->name('destinazioni');
 
-Route::get('/', 'PageController@servizi')->name('servizi');
+Route::get('/offerte', 'PageController@offerte')->name('offerte');
 
-Route::get('/', 'PageController@contatti')->name('contatti');
+Route::get('/servizi', 'PageController@servizi')->name('servizi');
+
+Route::get('/servizi', 'PageController@servizi')->name('servizi');
+
+Route::get('/contatti', 'PageController@contatti')->name('contatti');
+
+

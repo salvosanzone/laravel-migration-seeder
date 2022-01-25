@@ -10,16 +10,16 @@
             <a class="nav-link {{ (Route::currentRouteName() === 'home') ? 'active' : '' }}" aria-current="page" href="{{route('home')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() === 'destinazioni') ? 'active' : '' }}" href="#">Destinazioni</a>
+            <a class="nav-link {{ (Route::currentRouteName() === 'destinazioni') ? 'active' : '' }}" href="{{route('destinazioni')}}">Destinazioni</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() === 'offerte') ? 'active' : '' }}" href="#">Offerte</a>
+            <a class="nav-link {{ (Route::currentRouteName() === 'offerte') ? 'active' : '' }}" href="{{route('offerte')}}">Offerte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() === 'servizi') ? 'active' : '' }}" href="#">Servizi</a>
+            <a class="nav-link {{ (Route::currentRouteName() === 'servizi') ? 'active' : '' }}" href="{{route('servizi')}}">Servizi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() === 'contatti') ? 'active' : '' }}" href="#">Contatti</a>
+            <a class="nav-link {{ (Route::currentRouteName() === 'contatti') ? 'active' : '' }}" href="{{route('contatti')}}">Contatti</a>
           </li>
         </ul>
       </div>
