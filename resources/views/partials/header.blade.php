@@ -16,7 +16,7 @@
             <a class="nav-link {{ (Route::currentRouteName() === 'offerte') ? 'active' : '' }}" href="{{route('offerte')}}">Offerte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ (Route::currentRouteName() === 'servizi') ? 'active' : '' }}" href="{{route('servizi')}}">Servizi</a>
+            <a class="nav-link {{ (Route::currentRouteName() === 'servizi') ? 'active' : '' }}" href="#">Pacchetti viaggio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {{ (Route::currentRouteName() === 'contatti') ? 'active' : '' }}" href="{{route('contatti')}}">Contatti</a>
@@ -24,11 +24,11 @@
         </ul>
       </div>
     <div class="right-menu d-flex align-items-center">
-      <i class="fas fa-search "></i>
+      <i class="fa fa-search "></i>
       <div class="user mx-2">
-        <i class="fas fa-user "></i>
+        <i class="fa fa-user "></i>
       </div>
-      <h6 class="my-0">Salvatore <i class="fas fa-sort-down"></i></h6>
+      <h6 class="my-0">Salvatore <i class="fa fa-sort-down"></i></h6>
     </div>
     </div>
   </div>

@@ -19,10 +19,6 @@ class PageController extends Controller
         return view('offerte');
     }
 
-    public function servizi() {
-        return view('servizi');
-    }
-
     public function contatti() {
         return view('contatti');
     }

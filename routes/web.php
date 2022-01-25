@@ -13,16 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Rotte collegate a PageController
 Route::get('/', 'PageController@index')->name('home');
-
 Route::get('/destinazioni', 'PageController@destinazioni')->name('destinazioni');
-
 Route::get('/offerte', 'PageController@offerte')->name('offerte');
-
-Route::get('/servizi', 'PageController@servizi')->name('servizi');
-
-Route::get('/servizi', 'PageController@servizi')->name('servizi');
-
 Route::get('/contatti', 'PageController@contatti')->name('contatti');
+
+//Rotte collegate a TripController
+Route::get('/pacchetti-viaggio', 'TripController@index')->name('pacchetti-viaggio');
+
+
+
 
 

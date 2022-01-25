@@ -1,5 +1,6 @@
 @extends('layouts.main')
 
+
 @section('content')
-  <h1>offerte</h1>
+  <h1>pacchetti viaggio</h1>
 @endsection
