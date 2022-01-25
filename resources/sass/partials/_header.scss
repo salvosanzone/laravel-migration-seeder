@@ -1,0 +1,40 @@
+header{
+  height: 70px;
+  background-color: #3887cd;
+  color: white;
+
+  .menu{
+    ul li a{
+      font-size: 13px;
+      color: white;   
+    }
+    .left-menu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logo{
+        width: 100px;
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+    .right-menu{
+      i{
+        cursor: pointer;
+      }
+      .user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid lightblue;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+      }
+    }
+  }
+  
+}
+
+
